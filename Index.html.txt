@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nathan Carlos | Pastry Chef</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="chef-hero.jpg" alt="Nathan Carlos dessert">
+    <div class="hero-text">
+      <h1>Nathan Carlos</h1>
+      <p>Head Pastry Chef | 3 years experience</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>About</h2>
+    <p>I grew up watching my dad—an executive pastry chef—work his magic, and a few years ago I stepped from spectator to apprentice beside him. I fell in love with the kitchen, especially chocolate work and modern plated desserts. Today I lead the pastry department at Oglebay Resort, supplying every outlet from Trace Fine Dining to the Festival of Lights Buffet and our sister company Wheeling Park.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Morgantown, WV → Wheeling, WV</p>
+    <p><a href="mailto:Nathan10Carlos@gmail.com">Nathan10Carlos@gmail.com</a></p>
+    <p><a href="tel:7027728440">702-772-8440</a></p>
+    <p><a href="https://instagram.com/Chef_nathan702" target="_blank">@Chef_nathan702</a></p>
+  </section>
+
+  <section class="timeline">
+    <h2>Experience</h2>
+    <ul>
+      <li>2006-2020 – Learning from my father</li>
+      <li>2020-2021 – Shift Lead Cook, Dairy Queen</li>
+      <li>2021-2023 – Head Baker, 3Cs Bakery</li>
+      <li>2023-current – Assistant Pastry Chef, Oglebay Resort</li>
+    </ul>
+  </section>
+</body>
+</html>

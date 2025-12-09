@@ -1,0 +1,77 @@
+/* Midnight Pâtissier theme */
+:root{
+  --bg:#111;
+  --gold:#d4af37;
+  --text:#eee;
+  --font:'Helvetica Neue',Arial, sans-serif;
+}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font);
+  line-height:1.6;
+}
+header.hero{
+  position:relative;
+  text-align:center;
+  overflow:hidden;
+}
+header.hero img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.hero-text{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:rgba(0,0,0,.55);
+  padding:2rem 3rem;
+  border:2px solid var(--gold);
+}
+.hero-text h1{
+  font-size:2.2rem;
+  color:var(--gold);
+  margin-bottom:.25rem;
+}
+.hero-text p{
+  font-size:1.1rem;
+}
+section{
+  max-width:800px;
+  margin:3rem auto;
+  padding:0 1.5rem;
+}
+h2{
+  color:var(--gold);
+  margin-bottom:1rem;
+  font-size:1.5rem;
+}
+a{
+  color:var(--gold);
+  text-decoration:none;
+}
+ul{
+  list-style:none;
+  padding-left:0;
+}
+li{
+  padding:.4rem 0;
+  border-left:3px solid var(--gold);
+  padding-left:1rem;
+  margin-bottom:.75rem;
+}
+@media(max-width:600px){
+  .hero-text{
+    padding:1.2rem 1.5rem;
+  }
+  .hero-text h1{
+    font-size:1.7rem;
+  }
+}
